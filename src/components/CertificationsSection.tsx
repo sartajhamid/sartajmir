@@ -1,37 +1,39 @@
 import { Award } from "lucide-react";
+import SectionHeader from "./SectionHeader";
 
 const certifications = [
   {
-    title: "ServiceNow Certified System Administrator (CSA)",
+    title: "Certified System Administrator (CSA)",
     issuer: "ServiceNow",
+    description:
+      "Validated expertise in ServiceNow platform administration, configuration, and management of enterprise applications.",
   },
   {
-    title: "ServiceNow Certified Application Developer (CAD)",
+    title: "Certified Application Developer (CAD)",
     issuer: "ServiceNow",
+    description:
+      "Demonstrated proficiency in building, testing, and deploying applications on the ServiceNow platform.",
   },
 ];
 
 const CertificationsSection = () => {
   return (
     <section id="certifications" className="section-padding">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold font-heading text-center mb-16">
-          <span className="text-gradient">Certifications</span>
-        </h2>
+      <div className="max-w-5xl mx-auto">
+        <SectionHeader subtitle="My Credentials" title="" highlightedWord="Certifications" />
 
         <div className="grid sm:grid-cols-2 gap-6">
           {certifications.map((cert) => (
             <div
               key={cert.title}
-              className="bg-card border border-border rounded-lg p-6 hover:glow-border transition-all duration-300 flex items-start gap-4"
+              className="bg-card border border-border rounded-xl p-6 hover:glow-border transition-all duration-300"
             >
-              <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-5">
                 <Award className="text-primary" size={24} />
               </div>
-              <div>
-                <h3 className="font-bold font-heading text-foreground">{cert.title}</h3>
-                <p className="text-primary text-sm mt-1">{cert.issuer}</p>
-              </div>
+              <h3 className="text-lg font-bold">{cert.title}</h3>
+              <p className="text-primary font-semibold text-sm mt-1">{cert.issuer}</p>
+              <p className="text-muted-foreground text-sm mt-3 leading-relaxed">{cert.description}</p>
             </div>
           ))}
         </div>
