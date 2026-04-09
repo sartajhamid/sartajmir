@@ -9,8 +9,7 @@ const skillCategories = [
       "ServiceNow Platform", "Scripting (Client & Server)", "Flow Designer", "IntegrationHub",
       "Service Portal", "Glide API", "CMDB", "CSM",
       "ATF (Automated Testing)", "Update Sets & Scoped Apps", "REST / SOAP APIs",
-      "UI Policies & Actions", "Business Rules", "Notifications & SLAs", "ACLs & Security",
-      "Service Catalog",
+      "UI Policies & Actions", "Business Rules", "Catalog & Workflow", "ACLs & Security",
     ],
   },
   {

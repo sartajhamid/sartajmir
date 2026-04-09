@@ -1,4 +1,4 @@
-import { Linkedin, Instagram, Github, Twitter } from "lucide-react";
+import { Linkedin, Instagram, Github, Twitter, Eye, Download } from "lucide-react";
 
 const socials = [
   { icon: Instagram, href: "https://www.instagram.com/sartaj.hamid", label: "Instagram" },
@@ -46,15 +46,31 @@ const HeroSection = () => {
           <p className="text-muted-foreground text-sm tracking-widest uppercase">Hello there 👋</p>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.1]">
             I am{" "}
-            <span className="text-gradient">Sartaj Ahmad Mir</span>
-            , a{" "}
+            <span className="text-gradient">Sartaj{"\n"}Ahmad Mir</span>
+            ,{" "}a{" "}
             <span className="text-gradient">Software Engineer!</span>
           </h1>
           <p className="text-muted-foreground text-base sm:text-lg max-w-xl leading-relaxed">
             I am a certified ServiceNow System Administrator (CSA) and Certified Application
-            Developer (CAD). Passionate about building scalable enterprise solutions and delivering
-            exceptional user experiences.
+            Developer (CAD). I have a passion for designing and developing beautiful, creative, and user-friendly applications.
           </p>
+
+          <div className="flex flex-wrap items-center gap-4 pt-2">
+            <a
+              href="#"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full border-2 border-primary text-primary font-semibold hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+            >
+              <Eye size={18} />
+              View CV
+            </a>
+            <a
+              href="#"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary text-primary-foreground font-semibold hover:brightness-110 transition-all duration-300"
+            >
+              <Download size={18} />
+              Download Resume
+            </a>
+          </div>
         </div>
       </div>
     </section>
