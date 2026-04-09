@@ -14,8 +14,8 @@ const EducationSection = () => {
             </div>
             <div>
               <span className="font-mono-code text-sm text-muted-foreground">2020 – 2024</span>
-              <h3 className="text-xl font-bold mt-1">Bachelor of Computer Applications (BCA)</h3>
-              <p className="text-primary font-semibold text-sm mt-1">University of Kashmir</p>
+              <h3 className="text-xl font-bold mt-1">B.Tech Computer Science & Engineering</h3>
+              <p className="text-primary font-semibold text-sm mt-1">Guru Jambheshwar University of Science and Technology</p>
               <p className="text-muted-foreground text-sm mt-3 leading-relaxed">
                 Graduate with a strong foundation in computer science, data structures, algorithms,
                 and software engineering principles.
