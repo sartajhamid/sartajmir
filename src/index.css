@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Source+Code+Pro:wght@400;600&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Source+Code+Pro:wght@400;600&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @layer base {
   :root {
@@ -36,7 +36,7 @@
 
     --radius: 0.75rem;
 
-    --font-heading: 'Archivo Black', sans-serif;
+    --font-heading: 'Nova Square', sans-serif;
     --font-mono: 'Source Code Pro', monospace;
     --font-body: 'Inter', sans-serif;
 

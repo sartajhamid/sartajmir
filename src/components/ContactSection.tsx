@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Send, MapPin, Mail, Linkedin } from "lucide-react";
+import { Send, MapPin, Linkedin } from "lucide-react";
 import SectionHeader from "./SectionHeader";
 
 const ContactSection = () => {
@@ -28,10 +28,6 @@ const ContactSection = () => {
                 <MapPin size={18} className="text-primary flex-shrink-0" />
                 Jammu & Kashmir, India
               </div>
-              <a href="mailto:sartaj@example.com" className="flex items-center gap-3 text-sm text-muted-foreground hover:text-primary transition-colors">
-                <Mail size={18} className="text-primary flex-shrink-0" />
-                sartajmir@email.com
-              </a>
               <a href="https://linkedin.com/in/sartaj-ahmad-mir-6557bb183/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-sm text-muted-foreground hover:text-primary transition-colors">
                 <Linkedin size={18} className="text-primary flex-shrink-0" />
                 LinkedIn Profile
