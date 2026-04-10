@@ -51,8 +51,9 @@ const HeroSection = () => {
             <span className="text-gradient">Software Engineer!</span>
           </h1>
           <p className="text-muted-foreground text-base sm:text-lg max-w-xl leading-relaxed">
-            I am a certified ServiceNow System Administrator (CSA) and Certified Application
-            Developer (CAD). I have a passion for designing and developing beautiful, creative, and user-friendly applications.
+            Certified ServiceNow Developer (CSA, CAD)<br />
+            Specializing in custom applications, automation, and seamless platform solutions.<br />
+            Focused on optimizing processes and enhancing user experience.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 pt-2">
