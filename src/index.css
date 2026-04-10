@@ -38,7 +38,7 @@
 
     --font-heading: 'Nova Square', sans-serif;
     --font-mono: 'Source Code Pro', monospace;
-    --font-body: 'Inter', sans-serif;
+    --font-body: 'Nova Square', sans-serif;
 
     --gradient-primary: linear-gradient(135deg, hsl(25, 95%, 53%), hsl(35, 100%, 55%));
     --gradient-card: linear-gradient(145deg, hsl(0, 0%, 9%), hsl(0, 0%, 5%));
